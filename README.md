@@ -1,5 +1,5 @@
 # Email-SMS-Spam-Detection-Tool
- #  Email/SMS Spam Detection using Machine Learning
+ 
 
 A machine learning-based project that classifies messages as **spam** or **ham (not spam)** using natural language processing (NLP) and classification algorithms. The model is trained on a public dataset and is capable of detecting unwanted messages with high accuracy.
 
