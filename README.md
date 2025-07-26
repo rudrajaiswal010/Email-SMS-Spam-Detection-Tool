@@ -1,42 +1,52 @@
 # Email-SMS-Spam-Detection-Tool
- SMS/Email Spam Detection using Machine Learning
-This project focuses on detecting spam messages (SMS or Email) using machine learning algorithms. It classifies messages into spam or ham (not spam) based on their content.
+ #  Email/SMS Spam Detection using Machine Learning
 
- Features
-Text preprocessing (tokenization, stopword removal, stemming)
+A machine learning-based project that classifies messages as **spam** or **ham (not spam)** using natural language processing (NLP) and classification algorithms. The model is trained on a public dataset and is capable of detecting unwanted messages with high accuracy.
 
-Feature extraction using TF-IDF or CountVectorizer
+---
 
-Classification using ML models: Naive Bayes, Logistic Regression, SVM, etc.
+##  Project Overview
 
-Evaluation using accuracy, precision, recall, and F1-score
+This project applies machine learning techniques to detect spam messages in SMS or email texts. It involves cleaning and processing the raw text, converting it into numerical features, and training a classifier to make predictions.
 
- Tech Stack
-Python
+---
 
-Scikit-learn
+## Features
 
-Pandas, NumPy
+- Text preprocessing (lowercasing, tokenization, stop word removal, stemming)
+- Feature extraction using **TF-IDF Vectorizer**
+- Trained with popular ML models:
+  - Naive Bayes
+  - Logistic Regression
+  - Support Vector Machines (optional)
+- Model evaluation with accuracy, precision, recall, and F1-score
+- Clean and simple implementation in Python
 
-NLTK / spaCy (for NLP)
+---
 
-Jupyter Notebook
+##  Technologies Used
 
- Dataset
-Public dataset like SMS Spam Collection Dataset (UCI)
+- **Python**
+- **scikit-learn** – ML algorithms & model evaluation
+- **pandas & numpy** – data manipulation
+- **nltk** – natural language preprocessing
+- **matplotlib** – data visualization
+- **Jupyter Notebook** – for analysis and experimentation
 
- Usage
-Clone the repo
+---
 
-Install dependencies
+##  Dataset
 
-Run the notebook / script
+- [SMS Spam Collection Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)
+- The dataset contains labeled messages as "spam" or "ham" for supervised learning.
 
-Input a message to get spam prediction
+---
 
- Future Improvements
-Use deep learning (LSTM/RNN)
+##  Getting Started
 
-Deploy as a web or mobile app
+###  Prerequisites
 
-Add support for real-time message classification
+Install the required libraries using:
+
+```bash
+pip install -r requirements.txt
