@@ -1,5 +1,5 @@
 # Email-SMS-Spam-Detection-Tool
-SMS/Email Spam Detection using Machine Learning
+ SMS/Email Spam Detection using Machine Learning
 This project focuses on detecting spam messages (SMS or Email) using machine learning algorithms. It classifies messages into spam or ham (not spam) based on their content.
 
  Features
@@ -17,3 +17,26 @@ Python
 Scikit-learn
 
 Pandas, NumPy
+
+NLTK / spaCy (for NLP)
+
+Jupyter Notebook
+
+ Dataset
+Public dataset like SMS Spam Collection Dataset (UCI)
+
+ Usage
+Clone the repo
+
+Install dependencies
+
+Run the notebook / script
+
+Input a message to get spam prediction
+
+ Future Improvements
+Use deep learning (LSTM/RNN)
+
+Deploy as a web or mobile app
+
+Add support for real-time message classification
